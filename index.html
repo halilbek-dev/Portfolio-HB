@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HB Services</title>
+    <link rel="shortcut icon" href="img/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">HB Services</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+        
+          <div class="header-text">
+                <p>HTML \ CSS Front-End Developer</p>
+                <h1><span>Hi, I'm Halilbek from Uzbekistan</span> <br></h1>
+                
+              
+              
+            </div> 
+        
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myImage.jpg" alt="....">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a 14-year old passionate boy about Programming and I learned HTML, CSS and have a understanding of React.jsx and JavaScript. I learned programming through Youtube tutorials. I can build a little responsive and user-friendly website using HTML/CSS. I haven't worked for clients yet but I built some small websites on my own jsut as practice. If you offer me a job, I will do it fast and comunication is crucial for me, yea it's all about me!</p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Technical skills</span><br>
+                               
+    Languages: HTML, CSS, JavaScript<br>
+    Libraries:  React, Bootstrap
+</li>
+                                <li><span>Soft skills</span><br></li>
+                                Problem-solving and debugging<br>
+Strong communication and collaboration skills<br>
+Time management and multitasking abilities<br>
+Creativity in UI/UX design and development<br>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Sorry, I'm a junior developer. I have not worked for   any company but   I created website for practice and fun!</span><br></li>
+                           
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>I learned HTML / CSS / familiarity with JavaScript and React on Youtube by tutorials like DaveGray / Bro Code / GreateStuck and Etc..</span><br></li>
+                             
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+       
+                    <h2>Web Design</h2>
+                    <p>I can create "Landing page", or website which includes 3-4-pages website with HTML / CSS</p>
+                         <a href="#">Learn More</a>
+                </div>
+                <div>
+         
+                    <h2>Simple functional apps</h2>
+                    <p>I have a basic understanding of JavaScript and i can create simple functional app or website</p>
+                         <a href="#">Learn More</a>
+                </div>
+           
+            </div>
+        </div>
+     </div>
+     <!-- portfolio -->
+      <div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="port-1.png" alt="...">
+            <div class="layer">
+                <h3>Age Calculator</h3>
+                <p>I built it with HTML / CSS / JavaScript. You should enter your date then it calculates</p>
+                
+            </div>
+        </div>
+        <div class="work">
+            <img src="port-2.png" alt="...">
+            <div class="layer">
+                <h3>Digital Clock</h3>
+                <p>You can see "Digital Clock" shows time and it has a beautiful design, created with HTML / CSS / JavaScript</p>
+                 
+            </div>
+        </div>
+        <div class="work">
+            <img src="port-3.png" alt="...">
+            <div class="layer">
+                <h3>Notes App</h3>
+                <p>You can see, it's a Note App using HTML / CSS / JavaScript and helps you to make plan or notes</p>
+                 
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+      </div>
+      <!-- Contact Me -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>halilbekmamurjonov@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+998 917837178</p>
+                    <div class="social-icons">
+                    <a href="#" title="I don't have an account"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" title="My usename: @Halilbek_2 type me on telegram" ><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" title="I don't have an account"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" title="I don't have an account"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name:" required>
+                        <input type="email" name="Email" placeholder="Your Email:" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message:"></textarea>
+                        <button title="Sorry, Your message doesn't come to me connect me on telegram" type="submit" class="btn btn2"><a href="https://t.me/Halilbek_2" target="_blank">Submit</a>
+                        </button>
+         </form>
+   
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright && Halilbek. Made with <i class="fa-solid fa-heart"></i> by HalilBek</p>
+        </div>
+       </div>
+    <script src="app.js"></script>
+</body>
+</html>
